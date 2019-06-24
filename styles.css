@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F73A65;
+}
+
+article {
+  background-color: #fff;
+  width: 40%;
+  margin: 40px auto 100px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bff-icon {
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: #833989;
+  font-family: 'Pacifico', cursive;
+}
+
+p {
+  color: #FFDF57;
+  font-family: Helvetica;
+  float: right;
+}
+
+a {
+  color: #833989;
+}
+
+@media screen and (max-width: 900px) {
+  article {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .bday {
+    height: 250px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+span {
+  justify-content: center;
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Helvetica;
+}
+
+.content {
+ margin: 10px auto;
+ width: 400px;
+}
+
+.user-input {
+ display: flex;
+ flex-direction: column;
+ margin-top: 30px;
+ background: #ECECEC;
+}
+
+.name {
+ width: 300px;
+ margin: 25px auto 5px auto;
+ padding: 5px;
+ font-size: 90%;
+}
+
+.submit-btn {
+ width: 300px;
+ padding: 5px;
+ margin: 5px auto 25px auto;
+ background: #089B8A;
+ border: none;
+ border-radius: 2px;
+ color: #fff;
+ font-size: 100%;
+}
+
+.card-container {
+ padding: 30px;
+ background: #db2b43;
+}
+
+h2 {
+ font-size: 120%;
+ margin-bottom: 10px;
+}
+
+.name-card {
+ margin: 0 auto;
+ margin-bottom: 10px;
+ padding: 8px;
+ width: 300px;
+ background: #ce0823;
+}
+head {
+ justify-content: center;
